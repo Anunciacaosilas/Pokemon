@@ -8,6 +8,7 @@ import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PokemonService } from './services/pokemon.service';
 import {MatCardModule} from '@angular/material/card';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,8 @@ import {MatCardModule} from '@angular/material/card';
   imports: [
     BrowserModule, 
     HttpClientModule,
-    MatCardModule
+    MatCardModule,
+    BrowserAnimationsModule
 
     
   ],
